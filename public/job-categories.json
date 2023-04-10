@@ -1,0 +1,27 @@
+[
+    {
+      "id":1,
+      "name": "Software Developer",
+      "jobsAvailable": 150,
+      "icon": "https://img.icons8.com/nolan/512/development-skill.png"
+    },
+    {
+      "id":2,
+      "name": "Data Analyst",
+      "jobsAvailable": 250,
+      "icon": "https://img.icons8.com/nolan/512/1A6DFF/C822FF/combo-chart.png"
+    },
+    {
+      "id":3,
+      "name": "Graphic Designer",
+      "jobsAvailable": 120,
+      "icon": "https://img.icons8.com/nolan/512/designer.png"
+    },
+    {
+      "id":4,
+      "name": "Marketing Specialist",
+      "jobsAvailable": 200,
+      "icon": "https://img.icons8.com/nolan/512/1A6DFF/C822FF/commercial.png"
+    }
+  ]
+  

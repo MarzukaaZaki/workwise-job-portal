@@ -5,7 +5,7 @@ import './Header.css'
 const Header = () => {
     return (
         <div>
-            <nav className="bg-white flex items-center justify-between px-4 py-3">
+            <nav className="bg-white flex items-center justify-between px-4 py-3 shadow-sm">
                 {/* Logo */}
                 <div className="flex-shrink-0 mr-4">
                     <a href="#">
