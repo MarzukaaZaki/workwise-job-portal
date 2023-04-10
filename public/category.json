@@ -1,0 +1,23 @@
+[
+    {
+      "name": "Software Developer",
+      "jobsAvailable": 150,
+      "icon": "https://example.com/icons/software_developer.png"
+    },
+    {
+      "name": "Data Analyst",
+      "jobsAvailable": 250,
+      "icon": "https://example.com/icons/data_analyst.png"
+    },
+    {
+      "name": "Graphic Designer",
+      "jobsAvailable": 120,
+      "icon": "https://example.com/icons/graphic_designer.png"
+    },
+    {
+      "name": "Marketing Specialist",
+      "jobsAvailable": 200,
+      "icon": "https://example.com/icons/marketing_specialist.png"
+    }
+  ]
+  

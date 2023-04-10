@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "assignmentNo": 1,
+      "marks": 50
+    },
+    {
+      "id": 2,
+      "assignmentNo": 2,
+      "marks": 24
+    },
+    {
+      "id": 3,
+      "assignmentNo": 3,
+      "marks": 57
+    },
+    {
+      "id": 4,
+      "assignmentNo": 4,
+      "marks": 55
+    },
+    {
+      "id": 5,
+      "assignmentNo": 5,
+      "marks": 40
+    },
+    {
+      "id": 6,
+      "assignmentNo": 6,
+      "marks": 51
+    },
+    {
+      "id": 7,
+      "assignmentNo": 7,
+      "marks": 60
+    }
+  ]
+  
