@@ -1,8 +1,10 @@
 import React from 'react';
-import { CurrencyDollarIcon, MapPinIcon } from '@heroicons/react/24/solid';
+import { CurrencyDollarIcon, MapPinIcon } from '@heroicons/react/24/outline';
+import { useNavigate } from 'react-router-dom';
 
 const FeaturedJob = ({featuredJob}) => {
-    const {companyLogo, jobTitle, companyName, jobType, location, salaryRange } = featuredJob;
+    const {id, companyLogo, jobTitle, companyName, jobType, location, salaryRange } = featuredJob;
+    const navigate = useNavigate();
     return (
         <div>
             <div className='p-10 border rounded mx-auto'>
@@ -12,7 +14,7 @@ const FeaturedJob = ({featuredJob}) => {
                 <button className='border-indigo-400 bg-white text-indigo-500 mr-3'>{jobType}</button>
                 <button className='border-indigo-400 bg-white text-indigo-500 ml-3'>Fulltime</button>
                 <div className='mt-3'>
-                    <button className='bg-purple-400 text-white'> View Details</button>
+                    <button onClick={() => navigate(`job-detail/${id}`)} className='bg-purple-400 text-white'> View Details</button>
                 </div>
                 <div className='flex justify-start text-gray-500 mt-2'>
                     <MapPinIcon className='h-6 w-6 mt-4'></MapPinIcon> <p className='p-4'>{location}</p>

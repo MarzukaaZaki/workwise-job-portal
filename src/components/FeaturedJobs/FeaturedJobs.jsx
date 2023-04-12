@@ -1,9 +1,10 @@
 import React from 'react';
-import { useLoaderData } from 'react-router-dom';
+import { useLoaderData, useParams } from 'react-router-dom';
 import FeaturedJob from '../FeaturedJob/FeaturedJob';
 
 const FeaturedJobs = () => {
     const jobs = useLoaderData();
+    
 
     // Slice the jobs array
     const featuredJobs = jobs.slice(0, 4);
