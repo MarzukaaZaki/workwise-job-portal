@@ -1,6 +1,7 @@
 import React from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import bannerImage from '../../assets/Images/Vector.png'
+import bannerImage2 from '../../assets/Images/Vector-1.png'
 import { CurrencyDollarIcon, BriefcaseIcon, PhoneIcon, EnvelopeIcon, MapPinIcon } from '@heroicons/react/24/outline';
 import { list } from 'postcss';
 import { addToDb } from '../../utilities/fakeDb';
@@ -26,10 +27,15 @@ const JobDetail = () => {
     return (
 
         <div className="relative text-start pe-5">
-            <img src={bannerImage} alt="Example" className="w-1/2 h-auto" />
-            <p className="absolute top-8 left-1/2 mb-4 ml-4 text-black text-3xl font-semibold">
+            <div className='flex'>
+            <img src={bannerImage} alt="Example" className="p-4 mx-20 h-auto" />
+           
+            <p className="absolute mx-20 p-20 text-black text-3xl font-semibold">
                 Job Details
             </p>
+            <img src={bannerImage2} alt="Example" className="w-1/3 p-4 mx-20 h-auto" />
+            </div>
+            
             <div className='flex'>
                 {/* Job Information Paragraphs */}
                 <div className='mb-5 p-5 w-3/4 mx-5'>

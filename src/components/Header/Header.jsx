@@ -15,7 +15,7 @@ const Header = () => {
                 {/* Nav Links */}
                 <ul className="flex-grow flex items-center justify-center">
                     <li className="mr-10">
-                        <a href="#" className="text-black hover:text-purple-500">
+                        <a href="/" className="text-black hover:text-purple-500">
                             Home
                         </a>
                     </li>
@@ -25,7 +25,7 @@ const Header = () => {
                         </a>
                     </li>
                     <li className="mr-10">
-                        <a href="#" className="text-black hover:text-purple-500">
+                        <a href="applied-jobs" className="text-black hover:text-purple-500">
                             Applied Jobs
                         </a>
                     </li>

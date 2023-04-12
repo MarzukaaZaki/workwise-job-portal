@@ -21,4 +21,29 @@ const addToDb = id =>{
     localStorage.setItem('applied-jobs',JSON.stringify(allAppliedJobs));
 }
 
-export { addToDb }
+
+ 
+const getLocalStorageData = () => {
+    let data = {};
+
+    // Retrieve data from local storage
+    const storedData = localStorage.getItem('applied-jobs');
+    
+    // If there is data present, 
+    if(storedData){
+        // Convert it to an JS object from a JSON object
+        data = JSON.parse(storedData);
+    }
+
+    // return the object
+    return data;
+
+}
+
+
+
+
+
+
+
+export { addToDb, getLocalStorageData }
