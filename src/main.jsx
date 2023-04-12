@@ -9,6 +9,7 @@ import JobDetail from './components/JobDetail/JobDetail'
 import AppliedJobs from './components/AppliedJobs/AppliedJobs'
 import { jobsAndAppliedJobs } from './loaders/getJobsAndAppliedJobs'
 import Staistics from './components/Statistics/Staistics'
+import Blog from './components/Blog/Blog'
 const router = createBrowserRouter([
   {
     path:'/',
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
       {
         path: 'statistics',
         element: <Staistics></Staistics>
+      },
+      {
+        path: 'blog',
+        element: <Blog></Blog>
       },
       {
         path:'*',

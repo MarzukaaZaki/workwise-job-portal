@@ -30,7 +30,7 @@ const Header = () => {
                         </a>
                     </li>
                     <li className="mr-10">
-                        <a href="#" className="text-black hover:text-purple-500">
+                        <a href="blog" className="text-black hover:text-purple-500">
                             Blog
                         </a>
                     </li>
