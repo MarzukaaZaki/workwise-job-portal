@@ -12,7 +12,7 @@ const AppliedJobs = () => {
    
     return (
         <div>
-            <div className='flex'>
+            <div className='flex w-full'>
                 <img src={bannerImage} alt="Example" className="p-4 mx-20 h-auto" />
 
                 <p className="absolute mx-20 p-20 text-black text-3xl font-semibold">
@@ -22,7 +22,7 @@ const AppliedJobs = () => {
             </div>
 
             {/* Applied Jobs */}
-            <div className='w-full'>
+            <div className='mx-auto p-10'>
                 {
                     all.map(appliedJob => <AppliedJob
                     key = {appliedJob.id}
