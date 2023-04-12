@@ -7,7 +7,7 @@ const FeaturedJob = ({featuredJob}) => {
     const navigate = useNavigate();
     return (
         <div>
-            <div className='p-10 border rounded mx-auto'>
+            <div className='p-10 border-gray-500 rounded mx-auto'>
                 <img src={companyLogo} alt="" className='h-20 w-30 mb-2' />
                 <h2 className='text-2xl font-bold'>{jobTitle}</h2>
                 <p className='text-gray-500 mb-3'>{companyName}</p>

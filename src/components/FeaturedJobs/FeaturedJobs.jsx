@@ -16,7 +16,7 @@ const FeaturedJobs = () => {
 
             </div>
 
-            <div className='grid md:grid-cols-2 gap-3'>
+            <div className='md:grid lg:grid-cols-2 gap-3 mx-4'>
                 {
                     featuredJobs.map(featuredJob =>
                         <FeaturedJob
