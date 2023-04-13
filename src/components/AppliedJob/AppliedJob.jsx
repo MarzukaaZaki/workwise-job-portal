@@ -1,7 +1,9 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const AppliedJob = ({appliedJob}) => {
     const {id, companyLogo, jobTitle, company, jobType, location, salaryRange} = appliedJob;
+    const navigate = useNavigate();
     return (
         <div>
             <div className='flex mx-10 my-6 justify-around p-5'>
@@ -23,7 +25,7 @@ const AppliedJob = ({appliedJob}) => {
                 </div>
                 {/* View Details Button */}
                 <div className='me-0'>
-                    <button className='me-4 bg-purple-500 text-white'>View Details</button>
+                    <button onClick={() => navigate(`/job-detail/${id}`)} className='me-4 bg-purple-500 text-white'>View Details</button>
                 </div>
             </div>
         </div>
