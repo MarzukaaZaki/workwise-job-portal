@@ -1,13 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import FeaturedJob from '../FeaturedJob/FeaturedJob';
 
 const FeaturedJobs = () => {
     const jobs = useLoaderData();
     
+    const [dataSize, setDataSize] = useState(4);
+
+    const hideButton = dataSize > 4 ? 'hidden' : '';
 
     // Slice the jobs array
-    const featuredJobs = jobs.slice(0, 4);
+    const featuredJobs = jobs.slice(0, dataSize);
     return (
         <div>
             <div className='text-center mb-5 mt-3'>
@@ -26,7 +29,7 @@ const FeaturedJobs = () => {
                 }
             </div>
             <div className='text-center mt-5'>
-                <button className='bg-purple-500 text-white px-6 py-4'> See More Jobs </button>
+                <button onClick={() => setDataSize(6)} id='btn-see-all' className={`bg-purple-500 text-white px-6 py-4 ${hideButton}`}> See More Jobs </button>
             </div>
 
         </div>
