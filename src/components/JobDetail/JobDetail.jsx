@@ -2,7 +2,7 @@ import React from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import bannerImage from '../../assets/Images/Vector.png'
 import bannerImage2 from '../../assets/Images/Vector-1.png'
-import { CurrencyDollarIcon, BriefcaseIcon, PhoneIcon, EnvelopeIcon, MapPinIcon } from '@heroicons/react/24/outline';
+import { CurrencyDollarIcon, BriefcaseIcon, PhoneIcon, EnvelopeIcon, MapPinIcon, ClockIcon } from '@heroicons/react/24/outline';
 import { list } from 'postcss';
 import { addToDb } from '../../utilities/fakeDb';
 
@@ -14,7 +14,7 @@ const JobDetail = () => {
    
 
     // Destructuring the selected job object
-    const { jobTitle, jobDescription, jobType, educationalQualifications, experiences, jobResponsibilities, location, salaryRange, companyName, companyLogo, phone, email, address } = selectedJobData;
+    const { jobTitle, jobDescription, jobType, educationalQualifications, experiences, workHours, jobResponsibilities, location, salaryRange, companyName, companyLogo, phone, email, address } = selectedJobData;
 
     // Handle the apply now button functionality
 
@@ -52,6 +52,10 @@ const JobDetail = () => {
                         <h2 className='text-2xl font-semibold'>Educational Qualifications</h2>
                         <p>{educationalQualifications}</p>
                     </div>
+                    <div>
+                        <h2 className='text-2xl font-semibold'>Experience</h2>
+                        <p>{experiences} years</p>
+                    </div>
 
 
                 </div>
@@ -63,6 +67,7 @@ const JobDetail = () => {
 
                         <p className='flex pb-3'><CurrencyDollarIcon className='h-6 w-6 text-purple-600 me-3'></CurrencyDollarIcon><span className='font-semibold pe-2'> Salary:</span>{salaryRange} </p>
                         <p className='flex pb-3'> <BriefcaseIcon className='h-6 w-6 text-purple-600 me-3'></BriefcaseIcon><span className='font-semibold pe-2'>Job Title:</span>{jobTitle}</p>
+                        <p className='flex pb-3'> <ClockIcon className='h-6 w-6 text-purple-600 me-3'></ClockIcon><span className='font-semibold pe-2'>Type:</span>{jobType}, {workHours}</p>
 
 
 

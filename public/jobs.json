@@ -4,6 +4,7 @@
         "jobTitle": "Frontend Developer",
         "jobDescription": "We are seeking a skilled Frontend Developer to create visually appealing and user-friendly web interfaces. The Frontend Developer will be responsible for coding, testing, and debugging frontend applications, as well as collaborating with UX/UI designers to ensure seamless integration of design and functionality. The ideal candidate should have strong proficiency in HTML, CSS, and JavaScript, experience with frontend frameworks such as React or Angular, and a solid understanding of responsive design principles.",
         "jobType": "Onsite",
+        "workHours": "Full-time",
         "educationalQualifications": [
             "Bachelor's or Master's degree in Computer Science or related field",
             "Proven experience in frontend web development"
@@ -23,6 +24,7 @@
         "jobTitle": "Cloud Solutions Architect",
         "jobDescription": "We are looking for an experienced Cloud Solutions Architect to design, implement, and manage cloud-based infrastructure solutions. The Cloud Solutions Architect will be responsible for providing technical expertise in cloud computing technologies, developing cloud architecture designs, and collaborating with cross-functional teams to ensure successful implementation of cloud solutions. The ideal candidate should have strong knowledge of cloud computing platforms such as AWS, Azure, or Google Cloud, experience with infrastructure as code tools such as Terraform or CloudFormation, and a solid understanding of networking and security concepts in cloud environments.",
         "jobType": "Remote",
+        "workHours": "Part-time",
         "educationalQualifications": [
             "Bachelor's or Master's degree in Computer Science or related field",
             "Proven experience in cloud solutions architecture"
@@ -42,6 +44,7 @@
         "jobTitle": "Backend Developer",
         "jobDescription": "We are seeking a skilled Backend Developer to design and implement server-side applications and databases. The Backend Developer will be responsible for developing APIs, writing server-side code, integrating with third-party APIs, and ensuring optimal performance and security. The ideal candidate should have strong proficiency in server-side programming languages such as Node.js, Python, or Ruby, experience with databases such as MongoDB or MySQL, and a solid understanding of RESTful APIs and microservices architecture.",
         "jobType": "Onsite",
+        "workHours": "Full-time",
         "educationalQualifications": [
             "Bachelor's or Master's degree in Computer Science or related field",
             "Proven experience in backend development"
@@ -61,6 +64,7 @@
         "jobTitle": "Data Scientist",
         "jobDescription": "We are looking for an experienced Data Scientist to analyze and interpret complex data sets to derive insights and make data-driven decisions. The Data Scientist will be responsible for developing machine learning models, performing statistical analysis, and collaborating with cross-functional teams to identify patterns and trends. The ideal candidate should have strong expertise in programming languages such as Python or R, experience with machine learning frameworks such as TensorFlow or PyTorch, and a solid understanding of statistical concepts and data visualization techniques.",
         "jobType": "Remote",
+        "workHours": "Part-time",
         "educationalQualifications": [
             "Master's or PhD in Computer Science, Statistics, or related field",
             "Proven experience in data science or machine learning"
@@ -80,6 +84,7 @@
         "jobTitle": "Software Engineer",
         "jobDescription": "We are seeking a highly skilled and motivated Software Engineer to develop and maintain high-quality software solutions. The Software Engineer will be responsible for coding, testing, debugging, and documenting software applications, as well as collaborating with cross-functional teams to ensure successful project delivery. The ideal candidate should have strong programming skills, experience with software development methodologies, and a solid understanding of software engineering principles.",
         "jobType": "Onsite",
+        "workHours": "Full-time",
         "educationalQualifications": [
             "Bachelor's or Master's degree in Computer Science or related field",
             "Proven experience in software development"
@@ -99,6 +104,7 @@
         "jobTitle": "Database Engineer",
         "jobDescription": "We are seeking a skilled Database Engineer to design, develop, and maintain database systems that support the organization's applications and data requirements. The Database Engineer will be responsible for optimizing database performance, ensuring data security and integrity, and troubleshooting and resolving database-related issues. The ideal candidate should have strong expertise in database management systems such as MySQL, Oracle, or MongoDB, as well as experience with data modeling, database design, and performance tuning.",
         "jobType": "Onsite",
+        "workHours": "Full-time",
         "educationalQualifications": [
             "Bachelor's or Master's degree in Computer Science or a related field",
             "Proven experience in database engineering or a related field"

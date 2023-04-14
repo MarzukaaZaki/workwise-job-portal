@@ -37,11 +37,16 @@ const Staistics = () => {
             "id": 7,
             "assignmentNo": 7,
             "marks": 60
+        },
+        {
+            "id": 8,
+            "assignmentNo": 8,
+            "marks": 46
         }
     ]
 
 
-    const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#FF4E50', '#C39BD3', '#F9E79F'];
+    const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#FF4E50', '#C39BD3', '#993500', '#350099'];
 
 
     return (

@@ -13,7 +13,7 @@ const AppliedJobs = () => {
     const [filterJobs, setFilterJobs] = useState(all);
    
     return (
-        <div className='w-screen'>
+        <div className='w-screen min-h-screen'>
             
             <div className='flex text-center'>
                 <img src={bannerImage} alt="Example" className="p-4 mx-20 h-auto" />

@@ -1,7 +1,7 @@
 import { getLocalStorageData } from "../utilities/fakeDb";
 
 export const jobsAndAppliedJobs = async () => {
-    const jobsData = await fetch('jobs.json');
+    const jobsData = await fetch('/jobs.json');
     const jobs = await jobsData.json();
 
     const savedJobs = getLocalStorageData();
