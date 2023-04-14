@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { CurrencyDollarIcon, MapPinIcon } from '@heroicons/react/24/outline';
 
 const AppliedJob = ({ appliedJob }) => {
-    const { id, companyLogo, jobTitle, company, jobType, location, salaryRange } = appliedJob;
+    const { id, companyLogo, jobTitle, company, jobType, location, salaryRange, workHours } = appliedJob;
     const navigate = useNavigate();
     return (
         <div>
@@ -25,7 +25,7 @@ const AppliedJob = ({ appliedJob }) => {
                     </div>
 
                     <button className='me-4 border-purple-400 bg-white text-purple-500'>{jobType}</button>
-                    <button className='me-4 border-purple-400 bg-white text-purple-500'>Fulltime</button>
+                    <button className='me-4 border-purple-400 bg-white text-purple-500'>{workHours}</button>
                 </div>
                 {/* View Details Button */}
                 <div className='me-0'>
