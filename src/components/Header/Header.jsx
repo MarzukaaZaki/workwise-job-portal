@@ -24,11 +24,11 @@ const Header = () => {
                 </div>
 
                 <div>
-                    <ul className={`lg:flex pl-4 py-2 duration-500 md:hidden ${openMenu ? 'w-1/3 border border-gray-100 shadow-md' : 'hidden'}`}>
-                        <li className='mr-8 p-2 font-semibold text-black'><Link to='/'>Home</Link>  </li>
-                        <li className='mr-8 p-2 font-semibold text-black'><Link to='statistics'>Statistics</Link>  </li>
-                        <li className='mr-8 p-2 font-semibold text-black'><Link to='applied-jobs'>Applied Jobs</Link></li>
-                        <li className='mr-8 p-2 font-semibold text-black'><Link to='blog'>Blog</Link></li>
+                    <ul className={`lg:flex pl-4 py-2 text-black duration-500 md:hidden ${openMenu ? 'w-1/3 border border-gray-100 shadow-md' : 'hidden'}`}>
+                        <li className='mr-8 p-2 font-semibold hover:text-purple-500'><Link to='/'>Home</Link>  </li>
+                        <li className='mr-8 p-2 font-semibold hover:text-purple-500'><Link to='statistics'>Statistics</Link>  </li>
+                        <li className='mr-8 p-2 font-semibold hover:text-purple-500'><Link to='applied-jobs'>Applied Jobs</Link></li>
+                        <li className='mr-8 p-2 font-semibold hover:text-purple-500'><Link to='blog'>Blog</Link></li>
                     </ul>
                 </div>
 

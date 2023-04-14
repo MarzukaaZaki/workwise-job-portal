@@ -6,7 +6,7 @@ const HomeBanner = () => {
             <div className="container mx-auto px-4">
                 <div className="flex flex-wrap items-center">
                     {/* Banner Text */}
-                    <div className="w-screen md:w-1/2 mt-8 md:mt-0 pl-0 md:pl-12">
+                    <div className="w-full md:w-1/2 mt-8 md:mt-0 pl-0 md:pl-12">
                         <h1 className="text-4xl md:text-5xl text-black font-bold mb-4">Your Career</h1>
                         <h1 className="text-4xl md:text-5xl text-black font-bold mb-4">Your Way</h1>
                         <h1 className="text-2xl md:text-5xl text-purple-500 font-bold mb-4">Work Wise Today</h1>
