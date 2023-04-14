@@ -13,9 +13,9 @@ const AppliedJobs = () => {
     const [filterJobs, setFilterJobs] = useState(all);
    
     return (
-        <div>
+        <div className='w-screen'>
             
-            <div className='flex w-full'>
+            <div className='flex text-center'>
                 <img src={bannerImage} alt="Example" className="p-4 mx-20 h-auto" />
 
                 <p className="absolute mx-20 p-20 text-black text-3xl font-semibold">
@@ -23,8 +23,8 @@ const AppliedJobs = () => {
                 </p>
                 <img src={bannerImage2} alt="Example" className="w-1/3 p-4 mx-20 h-auto" />
             </div>
-            <div className='mx-auto'>
-                <p>Filter by:</p>
+            <div className='mx-10 mt-2'>
+                <p className='mb-3 text-gray-500'>Filter by:</p>
             <button onClick={() => setFilterJobs(all.filter(job => job.jobType === 'Remote'))}  className='me-4 border-purple-400 bg-white text-purple-500'>Remote </button>
             <button onClick={() => setFilterJobs(all.filter(job => job.jobType === 'Onsite'))} className='me-4 border-purple-400 bg-white text-purple-500'> Onsite</button>
 

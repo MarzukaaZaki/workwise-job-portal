@@ -14,7 +14,7 @@ const HomeBanner = () => {
                             Welcome to WorkWise, the ultimate job portal that helps you find your perfect match in the professional world. 
                             Our cutting-edge platform is designed to streamline the job search process, providing you with a personalized and intuitive experience. 
                         </p>
-                        <button className="bg-purple-600 text-white px-6 py-4">Get Started</button>
+                        <button className="bg-purple-500 text-white px-6 py-4">Get Started</button>
                     </div>
                     {/* Banner Image */}
                     <div className="w-full md:w-1/2">

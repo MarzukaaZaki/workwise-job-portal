@@ -28,7 +28,7 @@ const FeaturedJobs = () => {
                     )
                 }
             </div>
-            <div className='text-center mt-5'>
+            <div className='text-center'>
                 <button onClick={() => setDataSize(6)} id='btn-see-all' className={`bg-purple-500 text-white px-6 py-4 ${hideButton}`}> See More Jobs </button>
             </div>
 
